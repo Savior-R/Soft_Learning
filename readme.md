@@ -50,6 +50,25 @@ gcc -O2 -o exp01.exe src/main.c
 3. 推送后用 Pull Request 发起评审，至少一名成员 Approve 后合并；
 4. 合并后删除已完成的特性分支，保持分支列表干净。
 
+## 远程仓库
+
+- 托管地址：https://github.com/Savior-R/Soft_Learning
+- 主干分支：`main`（默认分支）
+- 版本标签：`v1.0.0`（首个可交付版本）
+- 实验报告：`docs/软件体系结构_实验01_软件配置管理_实验报告.docx`
+
+拉取与推送：
+
+```bash
+git clone https://github.com/Savior-R/Soft_Learning.git
+git push origin main
+```
+
+## 问题跟踪
+
+需求与缺陷统一走仓库的 Issues：提交信息中用 `(#编号)` 关联对应 Issue，合并后由提交说明 `Closes #编号` 自动关闭，形成"问题 → 提交 → 关闭"的闭环。已归档的问题见 Issues 列表（#1 构建章节缺失、#2 并发提交冲突处理）。
+
 ## 版本记录
 
 - v1.0  memberA  初始化项目骨架与构建脚本
+- v1.1  memberA  归档实验报告与交付物（2cf1331）
