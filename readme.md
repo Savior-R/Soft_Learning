@@ -24,13 +24,6 @@ exp01/
 └── docs/              实验文档
 ```
 
-## 构建与运行
-
-```bash
-gcc -O2 -o exp01.exe src/main.c
-./exp01.exe
-```
-
 ## 分支约定
 
 - `main`：受保护主干，只接受合并请求
@@ -53,3 +46,5 @@ gcc -O2 -o exp01.exe src/main.c
 ## 版本记录
 
 - v1.0  memberA  初始化项目骨架与构建脚本
+
+- v1.1  memberA  （误提交）删除构建与运行章节
