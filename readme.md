@@ -37,6 +37,12 @@ gcc -O2 -o exp01.exe src/main.c
 - `feature/*`：功能分支，一人一支
 - 提交信息格式：`<type>: <subject>`，type 取 feat/fix/docs/chore
 
+## 环境要求
+
+- 操作系统：Windows 10/11 x64
+- 编译器：gcc 9.0 及以上（或 Dev-C++ 5.11 自带 TDM-GCC 4.9.2）
+- 版本控制客户端：Git 2.30+ / TortoiseSVN 1.14+
+
 ## 贡献指南
 
 1. 从 `main` 拉取最新代码，切出 `feature/<主题>` 分支；
