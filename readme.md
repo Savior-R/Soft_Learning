@@ -37,6 +37,13 @@ gcc -O2 -o exp01.exe src/main.c
 - `feature/*`：功能分支，一人一支
 - 提交信息格式：`<type>: <subject>`，type 取 feat/fix/docs/chore
 
+## 贡献指南
+
+1. 从 `main` 拉取最新代码，切出 `feature/<主题>` 分支；
+2. 小步提交，一次提交只做一件事，提交信息写清"做了什么、为什么"；
+3. 推送后用 Pull Request 发起评审，至少一名成员 Approve 后合并；
+4. 合并后删除已完成的特性分支，保持分支列表干净。
+
 ## 版本记录
 
 - v1.0  memberA  初始化项目骨架与构建脚本
